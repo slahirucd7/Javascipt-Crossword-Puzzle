@@ -1,0 +1,59 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+        td.textcell:hover{
+            background-color: green;
+        }
+        td.textcell{
+            background-color: black;
+            padding: 2px;
+            width: 2px;
+            text-align: center;
+        }
+        td.inputcell{
+            background-color: #b8b6b6;
+            padding: 0px;
+            width: 2px;
+        }
+        .tableDiv{
+            width: 45%;
+            margin: 10px;
+        }
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            background-image: url("bg.gif");
+        }
+        .contentDiv{
+            margin: 15px;
+            background-color: #b5a8a8;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .contentDiv2{
+            margin: 15px;
+            background-color: #a8b5a8;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        input {
+            width:100%;
+            line-height: : 40px
+            box-sizing: border-box;
+            height: 40px;
+            max-width: 1;
+            text-align: center;
+        }
+        sup{
+            color: red;
+            font-size: 17px;
+            font-weight: 40px;
+            background-color: yellow;
+        }
+        .final{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+        }
